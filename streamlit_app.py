@@ -1,7 +1,6 @@
 import streamlit as st
-import joblib==1.0.1
 
-#import joblib
+import joblib
 
 # Load the model
 model = joblib.load('text_clf_model.joblib')
