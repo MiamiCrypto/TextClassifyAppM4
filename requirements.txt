@@ -1,5 +1,5 @@
 streamlit>=1.26.0
 pandas
-joblib
+joblib==1.0.1
 scikit-learn
 nltk
