@@ -18,4 +18,4 @@ user_input = st.text_area("Enter text here:")
 if st.button('Predict'):
     prediction, scores = predict_text_with_score(model, user_input)
     st.write("Predicted class:", prediction)
-    st.write("Probability Scores:", scores
+    st.write("Probability Scores:", scores)
